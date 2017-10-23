@@ -1,0 +1,20 @@
+{
+  "name": "comparity-navigator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "COMPARITY",
+  "license": "All Rights Reserved",
+  "dependencies": {
+    "express": "^4.15.3",
+    "selenium-webdriver": "^3.4.0"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": "5.1.0"
+  }
+}
