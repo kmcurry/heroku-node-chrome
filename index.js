@@ -3,8 +3,8 @@ var chrome = require('selenium-webdriver/chrome');
 var builder = new webdriver.Builder()
 .withCapabilities({
   'browserName': 'chrome',
-  'ignore-ssl-errors': true,
-  'ssl-protocol': 'any',
+  'ignore-ssl-errors': true, // probably not needed, carried over from other application
+  'ssl-protocol': 'any', // probably not needed, carried over from other application
   'chromeOptions': {
     'binary': '/app/.apt/usr/bin/google-chrome', // change this to ENV var to run local and heroku
     'args': ['--headless', '--disable-gpu']
