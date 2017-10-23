@@ -6,7 +6,7 @@ var builder = new webdriver.Builder()
   'ignore-ssl-errors': true,
   'ssl-protocol': 'any',
   'chromeOptions': {
-    'binary': '/app/.apt/usr/bin/google-chrome',
+    'binary': '/app/.apt/usr/bin/google-chrome', // change this to ENV var to run local and heroku
     'args': ['--headless', '--disable-gpu']
   }
 });
